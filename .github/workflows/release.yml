@@ -22,10 +22,7 @@ jobs:
           npm ci
           npm shrinkwrap
           npm run test
-          cp package.json build && cp npm-shrinkwrap.json build
-          cp -r package.json .. && cp -r npm-shrinkwrap.json ..
-          rm .gitignore
-          mv .github/workflows/release.gitignore .gitignore
+          cp package.json build
           npx semantic-release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}

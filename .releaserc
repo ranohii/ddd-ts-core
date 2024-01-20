@@ -4,6 +4,7 @@
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
+    "@semantic-release/github",
     [
       "@semantic-release/npm",
       { "pkgRoot": "build" }
@@ -11,9 +12,8 @@
     [
       "@semantic-release/git",
       {
-        "assets": ["package.json", "npm-shrinkwrap.json"]
+        "assets": ["package.json"]
       }
-    ],
-    "@semantic-release/github"
+    ]
   ]
 }
