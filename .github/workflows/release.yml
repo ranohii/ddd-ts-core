@@ -22,7 +22,6 @@ jobs:
           npm ci
           npm shrinkwrap
           npm run test
-          rm build/package.json
           rm .gitignore
           cp .github/workflows/release.gitignore .gitignore
           npx semantic-release
