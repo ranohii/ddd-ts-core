@@ -1,6 +1,6 @@
 {
   "name": "@ranohii/ddd-ts-core",
-  "version": "0.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "ddd-ts-core",
   "main": "main/index.js",
   "typings": "main/index.d.ts",
