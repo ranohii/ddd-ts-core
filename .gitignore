@@ -7,4 +7,3 @@ src/**.js
 coverage
 *.log
 yarn.lock
-!build/CHANGELOG.md
