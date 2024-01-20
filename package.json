@@ -2,9 +2,9 @@
   "name": "@ranohii/ddd-ts-core",
   "version": "0.0.0-development",
   "description": "ddd-ts-core",
-  "main": "main/index.js",
-  "typings": "main/index.d.ts",
-  "module": "module/index.js",
+  "main": "build/main/index.js",
+  "typings": "build/main/index.d.ts",
+  "module": "build/module/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ranohii/ddd-ts-core.git"

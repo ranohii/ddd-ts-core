@@ -20,11 +20,7 @@ jobs:
         working-directory: .
         run: |
           npm ci
-          npm shrinkwrap
           npm run test
-          cp package.json build
-          rm .gitignore
-          cp .github/workflows/release.gitignore .gitignore
           npx semantic-release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
