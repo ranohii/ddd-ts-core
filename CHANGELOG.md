@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.16](https://github.com/ranohii/ddd-ts-core/compare/v1.1.14...v1.1.16) (2024-01-20)
+
+
+### Bug Fixes
+
+* Fix release config ([df08fb5](https://github.com/ranohii/ddd-ts-core/commit/df08fb565f899e31d502c414ce3b27f63ee05316))
+
+## [1.1.15](https://github.com/ranohii/ddd-ts-core/compare/v1.1.14...v1.1.15) (2024-01-20)
+
+
+### Bug Fixes
+
+* Fix release config ([df08fb5](https://github.com/ranohii/ddd-ts-core/commit/df08fb565f899e31d502c414ce3b27f63ee05316))
+
+# Changelog
+
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
 ### [1.1.14](https://github.com/ranohii/ddd-ts-core/compare/v1.1.12...v1.1.14) (2024-01-20)
 
 
