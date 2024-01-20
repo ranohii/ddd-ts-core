@@ -21,6 +21,7 @@ jobs:
         run: |
           npm ci
           npm run test
+          make set-main-package
           npx semantic-release
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
