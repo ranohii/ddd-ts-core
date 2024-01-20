@@ -1,12 +1,12 @@
 {
   "name": "@ranohii/ddd-ts-core",
-  "version": "0.0.0-semantically-released",
+  "version": "0.0.0-development",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "@ranohii/ddd-ts-core",
-      "version": "0.0.0-semantically-released",
+      "version": "0.0.0-development",
       "license": "MIT",
       "dependencies": {
         "@bitauth/libauth": "^1.17.1",
