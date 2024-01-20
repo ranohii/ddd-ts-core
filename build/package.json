@@ -1,6 +1,6 @@
 {
   "name": "@ranohii/ddd-ts-core",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "description": "ddd-ts-core",
   "main": "main/index.js",
   "typings": "main/index.d.ts",
@@ -16,7 +16,6 @@
     "build:main": "tsc -p tsconfig.json",
     "build:module": "tsc -p tsconfig.module.json",
     "clean": "npx rimraf build",
-    "postbuild": "cp package.json build",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "eslint src --ext .ts --fix",
