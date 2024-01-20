@@ -1,6 +1,12 @@
 {
   "name": "@ranohii/ddd-ts-core",
+<<<<<<< ours
   "version": "0.0.0-development",
+||||||| ancestor
+  "version": "1.1.24",
+=======
+  "version": "1.1.26",
+>>>>>>> theirs
   "description": "ddd-ts-core",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
