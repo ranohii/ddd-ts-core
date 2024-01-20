@@ -8,12 +8,12 @@
       "@semantic-release/npm",
       { "pkgRoot": "build" }
     ],
-    "@semantic-release/github",
     [
       "@semantic-release/git",
       {
         "assets": ["package.json", "npm-shrinkwrap.json"]
       }
-    ]
+    ],
+    "@semantic-release/github"
   ]
 }
