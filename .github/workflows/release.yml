@@ -21,6 +21,7 @@ jobs:
         run: |
           npm ci
           npm run test
+          npm shrinkwrap
           rm .gitignore
           mv .github/workflows/release.gitignore .gitignore
           npx semantic-release

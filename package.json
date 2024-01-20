@@ -17,6 +17,7 @@
     "build:module": "tsc -p tsconfig.module.json",
     "clean": "npx rimraf build",
     "postbuild": "cp package.json build",
+    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json ..",
     "fix": "run-s fix:*",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:lint": "eslint src --ext .ts --fix",
